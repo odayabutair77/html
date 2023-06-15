@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			background-image: url("ورود.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+		}
+
+		form {
+			margin-top: 50px;
+			text-align: center;
+			background-color: rgba(255,555,255,0.8);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+			max-width: 400px;
+			margin: 0 auto;
+		}
+
+		input[type="email"], input[type="password"،input[type="age"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #f2f2f2;
+			font-size: 16px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			border: none;
+			color: sky-blue;
+			padding: 12px 30px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+
+		a {
+			color: #4CAF50;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<form>
+	<label for="create an account">Create an account:</label><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="password">Password:</label><br>
+		<input type="password" id="password" name="password" required><br>
+
+  <label for="age">Age:</label><br>
+  <select id="age" name="age" required>
+    <option value="">Select Age</option>
+    <option value="18-24">18-24</option>
+    <option value="25-34">25-34</option>
+    <option value="35-44">35-44</option>
+    <option value="45-54">45-54</option>
+    <option value="55-64">55-64</option>
+    <option value="65+">65+</option>
+  </select><br>
+
+  <label for="about">Tell us a little about yourself:</label><br>
+  <textarea id="about" name="about"></textarea><br>
+
+  <input type="checkbox" id="terms" name="terms" required>
+  <label for="terms">I agree to the terms of service</label><br>
+
+  <input type="submit" value="Sign up">
+		
+</body>
+</html>
+
