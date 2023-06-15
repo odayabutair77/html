@@ -1,0 +1,70 @@
+-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+css
+Copy code
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+h1, h2 {
+  background-color: #87ceeb;
+  padding: 10px;
+  color: #fff;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="profile-image" src="your_image.jpg" alt="Profile Picture">
+    <div>
+      <h1>Hello there, my name's Oday Abutair</h1>
+      <h2>I'm a web developer</h2>
+    </div>
+  </div>
+  <hr>
+  <section>
+    <h3>Personal Information</h3>
+    <ul>
+      <li><p1>Name: Oday Abutair</p1></li>
+      <li><p2>Age: 30</p2></li>
+      <li><p3>Job: Web Development</p3></li>
+      <li><p3>Address: Jerusalem/Israel</p3></li>
+    </ul>
+  </section>
+  <section>
+    <h4>About Myself</h4>
+    <p4>I'm a marketing professional with over seven years of experience. I specialize in brand promotions, market analysis, and competition mapping. I most recently worked as a Sr. Marketing Manager for a large advertising agency managing multiple large size projects and overseeing marketing efforts for my clients. And now I'm looking to expand my experience across other aspects of marketing including digital marketing and OOH. Which is why I am more interested in joining your organization.</p4>
+  </section>
+  <section>
+    <h3>Connect with Me:</h3>
+    <ul>
+      <li><img src="instagram_logo.png" alt="Instagram Logo" width="20" height="20"><a href="https://www.instagram.com/ade.abutair/" target="_blank">Instagram</a></li>
+      <li><img src="facebook_logo.png" alt="Facebook Logo" width="20" height="20"><a href="https://www.facebook.com/odai.abut/" target="_blank">Facebook</a></li>
+    </ul>
+  </section>
+</body>
+</html>
